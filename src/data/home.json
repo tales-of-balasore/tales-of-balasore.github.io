@@ -1,0 +1,33 @@
+[
+    {
+        "slider": [
+            {
+                "id": 1,
+                "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/1.png?alt=media&token=b0a4d016-dd0d-450f-a5d8-96ad305a773b",
+                "title": "Vouge Italia Deember Campaign",
+                "subTitle": "inspire 2026",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "buttonText": "Explore now"
+            },
+            {
+                "id": 2,
+                "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/2.png?alt=media&token=2403c2e3-108b-4c3f-92bb-459af951f1ff",
+                "title": "Vouge Italia Deember Campaign",
+                "subTitle": "inspire 2026",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "buttonText": "Explore now"
+            },
+            {
+                "id": 3,
+                "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/3.png?alt=media&token=1a7bc9d6-eb1e-49b3-a6de-db112aa26418",
+                "title": "Vouge Italia Deember Campaign",
+                "subTitle": "inspire 2026",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "buttonText": "Explore now"
+            }
+        ]
+    },
+    {
+        "qute": "Alexis Photography Studio based in Portland, <br /> Oregon. I specialises in shooting liquids and my colourful liquid work, titled “Biford”, has become very well <br /> known and collectable."
+    }
+]
