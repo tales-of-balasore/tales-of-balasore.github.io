@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import "lightgallery.js/dist/css/lightgallery.css";
 import { useEffect } from "react";
 import "react-modal-video/scss/modal-video.scss";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "swiper/components/pagination/pagination.scss";
 import "swiper/swiper.scss";
 import "./assets/css/animate.css";
