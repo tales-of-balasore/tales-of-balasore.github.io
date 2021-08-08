@@ -60,7 +60,7 @@ const Header = ({ classOption }) => {
                         </div>
 
                         <div className="col-auto">
-                            {/* <HeaderSearch onClick={onSearchHandler} /> */}
+                            <HeaderSearch onClick={onSearchHandler} />
                         </div>
                     </div>
                 </div>

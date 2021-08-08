@@ -11,7 +11,7 @@ const Contact = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Alexis || Contact" />
+                <SEO title="Tales of Balasore || Contact" />
                 <div className="wrapper home-default-wrapper">
                     <Header classOption="hb-border" />
                     <div className="main-content">

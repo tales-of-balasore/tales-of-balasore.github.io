@@ -16,7 +16,7 @@ const AboutPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Alexis || About" />
+                <SEO title="Tales of Balasore || About" />
                 <div className="wrapper about-page-wrapper">
                     <Header classOption="hb-border" />
                     <div className="main-content">
@@ -24,9 +24,9 @@ const AboutPage = () => {
                         <AboutService />
                         <TeamContainer />
                         <Blockquote />
-                        <AboutGallery />
+                        {/* <AboutGallery />
                         <AboutAward />
-                        <BrandContainer />
+                        <BrandContainer /> */}
                     </div>
                     <Footer />
                     <ScrollToTop />

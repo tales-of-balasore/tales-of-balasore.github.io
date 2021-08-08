@@ -8,10 +8,7 @@ const SEO = ({ title }) => {
             <meta charSet="utf-8" />
             <title>{title}</title>
             <meta name="robots" content="noindex, follow" />
-            <meta
-                name="description"
-                content="Alexis – Photography React JS Template"
-            />
+            <meta name="description" content="Tales of Balasore" />
             <meta
                 name="viewport"
                 content="width=device-width, initial-scale=1, shrink-to-fit=no"

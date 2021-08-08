@@ -17,7 +17,7 @@ const AboutService = () => {
                             }}
                         />
                     </div>
-                    <div
+                    {/* <div
                         className="col-lg-4 col-xl-3 offset-xl-1"
                         data-aos="fade-up"
                         data-aos-delay="300"
@@ -39,7 +39,7 @@ const AboutService = () => {
                                     );
                                 })}
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

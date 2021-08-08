@@ -1,8 +1,8 @@
 [
     {
         "id": "about me",
-        "title": "Say Hello From Alexis !",
-        "excerpt": "We are a fairly small, flexible design studio that designs for print and web. <br>Alexis works flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing and a beautiful and functional website or whether you are looking for a great experience."
+        "title": "Hello From Tales of Balasore !",
+        "excerpt": "We are a tiny group attempting to deliver known and unknown information about various locations in Balasore."
     },
     {
         "id": "about service",
@@ -22,65 +22,54 @@
             {
                 "id": 1,
                 "classOption": "team-member",
-                "image": "./img/team/01.jpg",
-                "name": "Joe Biden",
-                "designation": "CEO Founder"
+                "image": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Team%2FChandan.png?alt=media&token=d4a8b520-db3f-4026-bf22-1e48ea6ed3bb",
+                "name": "Chandan Choudhury",
+                "designation": "Founder",
+                "website": "https://www.chandanchoudhury.in/",
+                "linkedin": "https://www.linkedin.com/in/chandan-choudhury-0809/",
+                "facebook": "https://www.facebook.com/Chandan.Choudhury.Odin",
+                "instagram": "https://www.instagram.com/chandan_choudhury_official/"
             },
             {
                 "id": 2,
                 "classOption": "team-member",
-                "image": "./img/team/02.jpg",
-                "name": "Alex Tuntuni",
-                "designation": "CEO Founder"
+                "image": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Team%2FBiswajit.png?alt=media&token=00ee1c6b-96c9-40e4-b9d5-c24c6c2c701d",
+                "name": "Biswajit Das",
+                "designation": "Graphic Designer & Video Editor",
+                "website": "https://biswajitdas.in/",
+                "linkedin": "https://www.linkedin.com/in/biswajit-das-a523a71a3/",
+                "facebook": "https://www.facebook.com/people/%E1%97%BE%E1%93%B0%E1%94%9C%E1%99%A1%E1%95%AC%E1%92%9B%E1%93%B2%E1%96%B6-%E1%97%9E%E1%97%A9%E1%94%99/100004771607230/",
+                "instagram": "https://www.instagram.com/biswjit1999/"
             },
             {
                 "id": 3,
                 "classOption": "team-member",
-                "image": "./img/team/03.jpg",
-                "name": "Blanche Fields",
-                "designation": "CEO Founder"
+                "image": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Team%2FKiran.png?alt=media&token=ec0c2b88-f99d-4ab8-b17c-397596c25ba3",
+                "name": "Kiran Kumari Das",
+                "designation": "Content Writer",
+                "website": "https://www.instagram.com/here_comes_kiran3",
+                "linkedin": "",
+                "facebook": "",
+                "instagram": "https://www.instagram.com/here_comes_kiran3"
             },
             {
                 "id": 4,
                 "classOption": "team-member",
-                "image": "./img/team/04.jpg",
-                "name": "Alex Tuntuni",
-                "designation": "CEO Founder"
-            },
-            {
-                "id": 5,
-                "classOption": "team-member",
-                "image": "./img/team/05.jpg",
-                "name": "Blanche Fields",
-                "designation": "CEO Founder"
-            },
-            {
-                "id": 6,
-                "classOption": "team-member",
-                "image": "./img/team/06.jpg",
-                "name": "Alex Tuntuni",
-                "designation": "CEO Founder"
-            },
-            {
-                "id": 7,
-                "classOption": "team-member",
-                "image": "./img/team/07.jpg",
-                "name": "Blanche Fields",
-                "designation": "CEO Founder"
-            },
-            {
-                "id": 8,
-                "classOption": "team-member become-member",
-                "image": "./img/team/01.jpg",
-                "name": "Become <br>member in <br>Alexis"
+                "image": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Team%2FSatya.png?alt=media&token=5c7753e4-bdfc-47ce-8854-18711a4093a2",
+                "name": "Satyaranjan Panda",
+                "designation": "Trip Manager",
+                "website": "https://instagram.com/uu_rr_ugly_but_ii",
+                "linkedin": "https://www.linkedin.com/in/satyaranjan-panda-b685b01b7",
+                "facebook": "https://www.facebook.com/satyaranjan.panda.54584",
+                "instagram": "https://instagram.com/uu_rr_ugly_but_ii"
             }
         ]
     },
     {
         "id": "blockquote",
-        "excerpt": "I’ve worked with many agencies throughout the world. <br />I’ve found Alexis to be one of those special agencies you wish all the others were like.",
-        "name": "Ellen Krelamine",
-        "designation": "CEO at Drfurion"
+        "excerpt": "I am a travel fanatic who enjoys going on adventures. My team and I enjoy travelling to new places. It's not just about travelling; it's also about falling in love and seeing the world through rose-tinted glasses.",
+        "name": "Chandan Choudhury",
+        "designation": "Founder | Tales of Balasore"
     },
     {
         "id": "about gallery",

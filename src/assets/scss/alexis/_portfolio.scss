@@ -74,6 +74,7 @@
             font-family: $heading-font;
             font-weight: 700;
             margin-bottom: 15px;
+            color: #fff;
             // Responsive
             @media #{$lg-device} {
                 font-size: 18px;

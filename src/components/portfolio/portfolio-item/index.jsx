@@ -24,14 +24,9 @@ const PortfolioItem = ({ portfolio }) => {
             </LightgalleryProvider>
             <div className="content">
                 <h3 className="title">
-                    <Link
-                        to={
-                            process.env.PUBLIC_URL +
-                            `/portfolio-details/${portfolio.id}`
-                        }
-                    >
+                    <a href={portfolio.link} target="_blank" rel="noreferrer">
                         {portfolio.title}
-                    </Link>
+                    </a>
                 </h3>
                 <p className="desc">{portfolio.excerpt}</p>
             </div>

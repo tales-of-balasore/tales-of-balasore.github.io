@@ -16,10 +16,10 @@ const Footer = () => {
                                                 <Link
                                                     to={
                                                         process.env.PUBLIC_URL +
-                                                        "/"
+                                                        "support-us"
                                                     }
                                                 >
-                                                    term &amp; condition
+                                                    SUPPORT US
                                                 </Link>
                                             </li>
                                             <li>
@@ -29,18 +29,17 @@ const Footer = () => {
                                                         "/"
                                                     }
                                                 >
-                                                    policy
+                                                    TERMS & CONDITIONS
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link
-                                                    to={
-                                                        process.env.PUBLIC_URL +
-                                                        "/"
-                                                    }
+                                                <a
+                                                    href="https://www.google.com/maps/place/Balasore,+Odisha/data=!4m2!3m1!1s0x3a1cf4ec20929ba1:0xc0ae3bcaf5c67126?sa=X&ved=2ahUKEwi-9LzQ643yAhVnzTgGHaR3Cu0Q8gF6BAgMEAE"
+                                                    target="_blank"
+                                                    rel="noreferrer"
                                                 >
-                                                    map
-                                                </Link>
+                                                    MAP
+                                                </a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -83,7 +82,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <a
-                                            href="https://www.facebook.com/"
+                                            href="https://www.facebook.com/talesofbalasore/"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >

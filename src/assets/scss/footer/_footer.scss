@@ -60,6 +60,7 @@
         }
     }
     .widget-title {
+        text-transform: none;
     }
     .about-widget {
         .footer-logo {
@@ -173,7 +174,7 @@
                         line-height: 1.2;
                         font-weight: 700;
                         font-family: $heading-font;
-                        text-transform: uppercase;
+                        text-transform: none;
                         color: $heading-color;
                         &:hover {
                             color: $theme-color;
