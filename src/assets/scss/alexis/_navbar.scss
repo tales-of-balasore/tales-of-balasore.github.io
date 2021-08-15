@@ -376,7 +376,7 @@
             display: block;
             padding: 12px 30px;
             & > a {
-                color: $white;
+                color: #f3f2c9;
                 font-size: 24px;
                 font-weight: $font-weight-normal;
                 line-height: 1;
@@ -386,7 +386,7 @@
                 text-transform: capitalize;
                 position: relative;
                 &:after {
-                    background-color: $white;
+                    background-color: #53b8bb;
                     bottom: 10px;
                     content: "";
                     height: 1px;
@@ -395,9 +395,15 @@
                     width: 0;
                     @include transition(0.3s);
                 }
-                &:hover,
-                &.active {
+                &:hover{
                     color: $white;
+                    &:after {
+                        left: 0;
+                        width: 100%;
+                    }
+                }
+                &.active {
+                    color: #53b8bb;
                     &:after {
                         left: 0;
                         width: 100%;

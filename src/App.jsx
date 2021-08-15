@@ -26,9 +26,12 @@ import BlogDate from "./templates/blog-date";
 import BlogDetails from "./templates/blog-details";
 import BlogTag from "./templates/blog-tag";
 import PortfolioDetails from "./templates/portfolio-details";
+import ReactGa from "react-ga";
 
 const App = () => {
     useEffect(() => {
+        ReactGa.initialize("G-28HCZ695QG");
+        ReactGa.pageview("/");
         AOS.init({
             offset: 80,
             duration: 1000,
@@ -51,7 +54,7 @@ const App = () => {
                         component={AboutPage}
                     />
                     <Route
-                        path={`${process.env.PUBLIC_URL + "/portfolio"}`}
+                        path={`${process.env.PUBLIC_URL + "/gallery"}`}
                         component={Portfolio}
                     />
                     <Route

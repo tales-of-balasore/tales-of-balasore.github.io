@@ -3,7 +3,7 @@
         "slider": [
             {
                 "id": 1,
-                "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/1.png?alt=media&token=b0a4d016-dd0d-450f-a5d8-96ad305a773b",
+                "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Home%2F1.png?alt=media&token=5bf4ee12-0e1c-4103-ae7d-1025d5df1155",
                 "title": "Vouge Italia Deember Campaign",
                 "subTitle": "inspire 2026",
                 "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -11,7 +11,7 @@
             },
             {
                 "id": 2,
-                "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/2.png?alt=media&token=2403c2e3-108b-4c3f-92bb-459af951f1ff",
+                "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Home%2F2.png?alt=media&token=ee189854-910c-4f5d-b356-144507c211f9",
                 "title": "Vouge Italia Deember Campaign",
                 "subTitle": "inspire 2026",
                 "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -19,7 +19,7 @@
             },
             {
                 "id": 3,
-                "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/3.png?alt=media&token=1a7bc9d6-eb1e-49b3-a6de-db112aa26418",
+                "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Home%2F3.png?alt=media&token=aafa5fd1-3bb7-425c-8ac0-57d9cba2f08d",
                 "title": "Vouge Italia Deember Campaign",
                 "subTitle": "inspire 2026",
                 "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",

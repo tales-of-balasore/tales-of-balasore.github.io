@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const PortfolioDetailsContainer = ({ data }) => {
+    const { nextLink, prevLink, instaLink, facebookLink, mapLink } = data;
     const cate = data.categories.map((value, idx) => {
         return (
             <span className="d-inline" key={idx}>
@@ -17,7 +18,7 @@ const PortfolioDetailsContainer = ({ data }) => {
                     <div className="col-lg-12">
                         <div className="inner-content">
                             <div className="content" data-aos="fade-up">
-                                <p className="category">{cate}</p>
+                                {/* <p className="category">{cate}</p> */}
                                 <h3 className="title">{data.title}</h3>
                             </div>
                             <div className="portfolio-info">
@@ -27,10 +28,10 @@ const PortfolioDetailsContainer = ({ data }) => {
                                         data-aos="fade-up"
                                     >
                                         <div className="info-item">
-                                            <span>Client</span>
+                                            <span>Photographer</span>
                                             <p
                                                 dangerouslySetInnerHTML={{
-                                                    __html: data.client,
+                                                    __html: data.photographer,
                                                 }}
                                             />
                                         </div>
@@ -69,15 +70,26 @@ const PortfolioDetailsContainer = ({ data }) => {
                                         data-aos-delay="900"
                                     >
                                         <div className="info-item style-two">
-                                            <span>Services</span>
+                                            <span>Location</span>
                                             <p
                                                 dangerouslySetInnerHTML={{
-                                                    __html: data.services,
+                                                    __html: data.location,
                                                 }}
                                             />
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div
+                                className="thumb section-padding-bottom"
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                            >
+                                <img
+                                    className="w-100"
+                                    src={data.gallery.imageOne}
+                                    alt="Tales of Balasore"
+                                />
                             </div>
                             <div
                                 className="portfolio-content"
@@ -103,18 +115,7 @@ const PortfolioDetailsContainer = ({ data }) => {
                                     {data.pageUrl.text}
                                 </Link>
                             </div>
-                            <div
-                                className="thumb section-padding-bottom"
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                            >
-                                <img
-                                    className="w-100"
-                                    src={`${process.env.PUBLIC_URL}/${data.gallery.imageOne}`}
-                                    alt="Alexis"
-                                />
-                            </div>
-                            <div className="row">
+                            {/* <div className="row">
                                 <div
                                     className="col-lg-8 m-auto"
                                     data-aos="fade-up"
@@ -128,12 +129,12 @@ const PortfolioDetailsContainer = ({ data }) => {
                                         />
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="container-fluid p-0">
+            {/* <div className="container-fluid p-0">
                 <div className="row">
                     <div className="col-lg-12" data-aos="fade-up">
                         <div className="thumb section-padding-bottom">
@@ -169,43 +170,42 @@ const PortfolioDetailsContainer = ({ data }) => {
                         />
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12" data-aos="fade-up">
                         <div className="social-icons">
-                            <span>Share:</span>
-                            <a
-                                href="https://twitter.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <i className="social_twitter"></i>
-                            </a>
-                            <a
-                                href="https://facebook.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <i className="icofont-facebook"></i>
-                            </a>
-                            <a
-                                href="https://myaccount.google.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <i className="icofont-google-plus"></i>
-                            </a>
-                            <a
-                                href="https://www.instagram.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <i className="icofont-instagram"></i>
-                            </a>
+                            <span>Links:</span>
+                            {mapLink ? (
+                                <a
+                                    href={data.mapLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i className="icon_pin_alt"></i>
+                                </a>
+                            ) : null}
+                            {instaLink ? (
+                                <a
+                                    href={data.instaLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i className="social_instagram"></i>
+                                </a>
+                            ) : null}
+                            {facebookLink ? (
+                                <a
+                                    href={data.facebookLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i className="social_facebook"></i>
+                                </a>
+                            ) : null}
                         </div>
                     </div>
-                    <div
+                    {/* <div
                         className="col-lg-12 text-center"
                         data-aos="fade-up"
                         data-aos-delay="300"
@@ -218,7 +218,7 @@ const PortfolioDetailsContainer = ({ data }) => {
                             <span>Get Started</span>{" "}
                             <i className="arrow_carrot-right_alt2"></i>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="row">
                     <div
@@ -227,19 +227,24 @@ const PortfolioDetailsContainer = ({ data }) => {
                         data-aos-delay="600"
                     >
                         <div className="portfolio-navigation">
-                            <div className="prev">
-                                <Link to={process.env.PUBLIC_URL + "/"}>
-                                    <i className="arrow_carrot-left"></i>{" "}
-                                    Previous
-                                </Link>
-                                Sample Project
-                            </div>
-                            <div className="next">
-                                <Link to={process.env.PUBLIC_URL + "/"}>
-                                    Next <i className="arrow_carrot-right"></i>
-                                </Link>
-                                Sample Project
-                            </div>
+                            {prevLink ? (
+                                <div className="prev">
+                                    <Link to={data.prevLink}>
+                                        <i className="arrow_carrot-left"></i>{" "}
+                                        Previous
+                                    </Link>
+                                    {/* Sample Project */}
+                                </div>
+                            ) : null}
+                            {nextLink ? (
+                                <div className="next">
+                                    <Link to={data.nextLink}>
+                                        Next{" "}
+                                        <i className="arrow_carrot-right"></i>
+                                    </Link>
+                                    {/* Sample Project */}
+                                </div>
+                            ) : null}
                         </div>
                     </div>
                 </div>

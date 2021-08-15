@@ -3,6 +3,8 @@ import { LightgalleryItem, LightgalleryProvider } from "react-lightgallery";
 import { Link } from "react-router-dom";
 
 const PortfolioItem = ({ portfolio }) => {
+    const { mapLink, instaLink, facebookLink } = portfolio;
+
     return (
         <div className="single-portfolio">
             <LightgalleryProvider>
@@ -24,11 +26,45 @@ const PortfolioItem = ({ portfolio }) => {
             </LightgalleryProvider>
             <div className="content">
                 <h3 className="title">
-                    <a href={portfolio.link} target="_blank" rel="noreferrer">
+                    <Link
+                        to={
+                            process.env.PUBLIC_URL +
+                            `/portfolio-details/${portfolio.id}`
+                        }
+                    >
                         {portfolio.title}
-                    </a>
+                    </Link>
                 </h3>
                 <p className="desc">{portfolio.excerpt}</p>
+                <div className="portfolio-icons">
+                    {mapLink ? (
+                        <a
+                            href={portfolio.mapLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i className="icon_pin_alt"></i>
+                        </a>
+                    ) : null}
+                    {instaLink ? (
+                        <a
+                            href={portfolio.instaLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i className="social_instagram"></i>
+                        </a>
+                    ) : null}
+                    {facebookLink ? (
+                        <a
+                            href={portfolio.facebookLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i className="social_facebook"></i>
+                        </a>
+                    ) : null}
+                </div>
             </div>
         </div>
     );

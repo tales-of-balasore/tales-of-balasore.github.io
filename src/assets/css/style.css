@@ -6125,6 +6125,9 @@ iframe {
 .intro-slider-wrap .swiper-pagination {
   position: absolute;
   bottom: 40px;
+  @media only screen and (max-width: 767px) {
+    bottom: 20px;
+    }
 }
 
 .intro-section {

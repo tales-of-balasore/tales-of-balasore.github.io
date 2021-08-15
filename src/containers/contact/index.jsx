@@ -12,8 +12,7 @@ const ContactContainer = () => {
                         data-aos="fade-up"
                     >
                         <h2 className="title">
-                            Contact us for any further questions, possible
-                            projects &amp; business partnerships
+                            Contact us for any further questions
                         </h2>
                     </div>
                 </div>

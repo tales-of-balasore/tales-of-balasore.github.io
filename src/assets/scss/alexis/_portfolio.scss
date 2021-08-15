@@ -13,6 +13,20 @@
         width: 100%;
         height: 300px;
     }
+    .portfolio-icons {
+        margin-top: 5px;
+			a {
+				color: $white;
+				font-size: 16px;
+				margin-right: 13.3px;
+				&:last-child {
+					margin-right: 0;
+				}
+				&:hover {
+					color: #f3f2c9;
+				}
+			}
+    }
     .thumbnail {
         position: relative;
         .overlay {
@@ -70,7 +84,7 @@
         }
         .title {
             font-size: 24px;
-            line-height: 1;
+            line-height: 0.5;
             font-family: $heading-font;
             font-weight: 700;
             margin-bottom: 15px;
@@ -80,8 +94,10 @@
                 font-size: 18px;
             }
             a {
-                display: block;
                 color: #fff;
+                &:hover {
+                    color: #f3f2c9;
+                }
             }
         }
         .desc {

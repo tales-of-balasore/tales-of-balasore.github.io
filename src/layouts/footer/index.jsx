@@ -53,9 +53,11 @@ const Footer = () => {
                                 </div>
                                 <div className="widget-copyright">
                                     <p>
-                                        © 2021 <span>Tales of </span>
-                                        <span>Balasore</span>. Made with{" "}
-                                        <i className="icofont-heart-alt"></i> by{" "}
+                                        © 2021
+                                        <a href="/" rel="noreferrer">
+                                            <span> Tales of Balasore</span>
+                                        </a>
+                                        . Made by{" "}
                                         <a
                                             target="_blank"
                                             href="https://www.chandanchoudhury.in/"
@@ -73,7 +75,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <a
-                                            href="https://twitter.com/talesofbalasore"
+                                            href="https://twitter.com/talesofbalasore/"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >

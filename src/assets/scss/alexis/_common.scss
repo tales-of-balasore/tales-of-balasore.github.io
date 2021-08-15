@@ -562,6 +562,12 @@ iframe {
     display: block;
     line-height: 1;
     margin-top: 20px;
+    @media #{$xs-device} {
+        margin-top: 40px;
+    }
+    @media #{$sm-device} {
+        margin-top: 40px;
+    }
     .swiper-pagination-bullet {
         display: inline-block;
         width: 10px;

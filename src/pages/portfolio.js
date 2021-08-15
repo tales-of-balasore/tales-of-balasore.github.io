@@ -11,7 +11,7 @@ const Portfolio = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Tales of Balasore || Portfolio" />
+                <SEO title="Tales of Balasore || Gallery" />
                 <div className="wrapper home-default-wrapper">
                     <Header classOption="hb-border" />
                     <div className="main-content">

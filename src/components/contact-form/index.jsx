@@ -9,7 +9,7 @@ const ContactForm = () => {
         <Fragment>
             <form
                 className="contact-form-wrapper"
-                action="https://getform.io/f/a17a2715-d7ee-4ac4-8fcb-12f1eed43b2c"
+                action="https://getform.io/f/de019376-f813-48a4-9278-191634cf2dbc"
                 method="POST"
             >
                 <div className="row">

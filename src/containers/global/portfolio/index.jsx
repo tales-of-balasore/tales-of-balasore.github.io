@@ -27,22 +27,24 @@ const PortfolioContainer = () => {
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 portfolio-list mb-n30">
                     <div className="col resizer"></div>
                     {PortfolioData &&
-                        PortfolioData.map((portfolio) => (
-                            <div
-                                key={portfolio.id}
-                                className={`col masonry-grid mb-30 ${portfolio.categories
-                                    .map((cat) => slugify(cat))
-                                    .join(" ")}`}
-                            >
-                                <PortfolioItem portfolio={portfolio} />
-                            </div>
-                        ))}
+                        PortfolioData.slice(0)
+                            .reverse()
+                            .map((portfolio) => (
+                                <div
+                                    key={portfolio.id}
+                                    className={`col masonry-grid mb-30 ${portfolio.categories
+                                        .map((cat) => slugify(cat))
+                                        .join(" ")}`}
+                                >
+                                    <PortfolioItem portfolio={portfolio} />
+                                </div>
+                            ))}
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-12 text-center mt-60">
+                    {/* <div className="col-lg-12 text-center mt-60">
                         <button className="btn-portfolio">loading</button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
