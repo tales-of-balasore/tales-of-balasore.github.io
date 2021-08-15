@@ -30,7 +30,7 @@ import ReactGa from "react-ga";
 
 const App = () => {
     useEffect(() => {
-        ReactGa.initialize("G-28HCZ695QG");
+        ReactGa.initialize("UA-204999128-1");
         ReactGa.pageview("/");
         AOS.init({
             offset: 80,
