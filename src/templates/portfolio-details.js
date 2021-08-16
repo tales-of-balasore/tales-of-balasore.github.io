@@ -7,12 +7,18 @@ import PortfolioData from "../data/portfolio.json";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header/index";
 import Layout from "../layouts/index";
+import ReactGa from "react-ga";
 
 const PortfolioDetails = ({
     match: {
         params: { id },
     },
 }) => {
+    //Google Analytics
+    ReactGa.initialize('UA-204999128-1');
+    ReactGa.ga('set', 'page', '/portfolio-details/:id');
+    ReactGa.ga('send', 'pageview');
+
     const projectId = parseInt(id, 10);
     const data = PortfolioData.filter((project) => project.id === projectId);
     return (

@@ -6,8 +6,14 @@ import VideoGalleryContainer from "../containers/video-gallery";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header/index";
 import Layout from "../layouts/index";
+import ReactGa from "react-ga";
 
 const VideoGallery = () => {
+    //Google Analytics
+    ReactGa.initialize('UA-204999128-1');
+    ReactGa.ga('set', 'page', '/video-gallery');
+    ReactGa.ga('send', 'pageview');
+
     return (
         <React.Fragment>
             <Layout>

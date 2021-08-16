@@ -6,8 +6,14 @@ import PageTitleContainerTwo from "../containers/global/page-title-two";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header/index";
 import Layout from "../layouts/index";
+import ReactGa from "react-ga";
 
 const Blog = () => {
+    //Google Analytics
+    ReactGa.initialize('UA-204999128-1');
+    ReactGa.ga('set', 'page', '/blog');
+    ReactGa.ga('send', 'pageview');
+
     return (
         <React.Fragment>
             <Layout>

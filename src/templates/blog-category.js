@@ -9,12 +9,18 @@ import Footer from "../layouts/footer";
 import Header from "../layouts/header/index";
 import Layout from "../layouts/index";
 import { slugify } from "../utils";
+import ReactGa from "react-ga";
 
 const BlogCategory = ({
     match: {
         params: { slug },
     },
 }) => {
+    //Google Analytics
+    ReactGa.initialize('UA-204999128-1');
+    ReactGa.ga('set', 'page', '/category/:slug');
+    ReactGa.ga('send', 'pageview');
+
     const data = BlogData.map((blog) => {
         return {
             ...blog,

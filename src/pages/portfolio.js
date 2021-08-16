@@ -6,8 +6,14 @@ import PortfolioContainer from "../containers/global/portfolio/index.jsx";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header/index";
 import Layout from "../layouts/index";
+import ReactGa from "react-ga";
 
 const Portfolio = () => {
+    //Google Analytics
+    ReactGa.initialize('UA-204999128-1');
+    ReactGa.ga('set', 'page', '/gallery');
+    ReactGa.ga('send', 'pageview');
+
     return (
         <React.Fragment>
             <Layout>

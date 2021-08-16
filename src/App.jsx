@@ -31,7 +31,7 @@ import ReactGa from "react-ga";
 const App = () => {
     useEffect(() => {
         ReactGa.initialize("UA-204999128-1");
-        ReactGa.pageview("/");
+        ReactGa.pageview(window.location.pathname + window.location.search);
         AOS.init({
             offset: 80,
             duration: 1000,

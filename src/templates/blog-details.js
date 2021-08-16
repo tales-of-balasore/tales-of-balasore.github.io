@@ -7,12 +7,18 @@ import BlogData from "../data/blog.json";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header/index";
 import Layout from "../layouts/index";
+import ReactGa from "react-ga";
 
 const BlogDetails = ({
     match: {
         params: { id },
     },
 }) => {
+    //Google Analytics
+    ReactGa.initialize('UA-204999128-1');
+    ReactGa.ga('set', 'page', '/blog-details/:id');
+    ReactGa.ga('send', 'pageview');
+
     const blogId = parseInt(id, 10);
     const data = BlogData.filter((blog) => blog.id === blogId);
     return (

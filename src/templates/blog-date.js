@@ -9,12 +9,18 @@ import Footer from "../layouts/footer";
 import Header from "../layouts/header/index";
 import Layout from "../layouts/index";
 import { slugify } from "../utils";
+import ReactGa from "react-ga";
 
 const BlogDate = ({
     match: {
         params: { date },
     },
 }) => {
+    //Google Analytics
+    ReactGa.initialize('UA-204999128-1');
+    ReactGa.ga('set', 'page', '/date/:date');
+    ReactGa.ga('send', 'pageview');
+
     const data = BlogData.filter((blog) => slugify(blog.date) === date);
     const dateTitle = data[0].date;
     return (

@@ -9,12 +9,18 @@ import Footer from "../layouts/footer";
 import Header from "../layouts/header/index";
 import Layout from "../layouts/index";
 import { slugify } from "../utils";
+import ReactGa from "react-ga";
 
 const BlogAuthor = ({
     match: {
         params: { author },
     },
 }) => {
+    //Google Analytics
+    ReactGa.initialize('UA-204999128-1');
+    ReactGa.ga('set', 'page', '/author/:author');
+    ReactGa.ga('send', 'pageview');
+
     const data = BlogData.filter((blog) => slugify(blog.author) === author);
     const authorTitle = data[0].author;
     return (
