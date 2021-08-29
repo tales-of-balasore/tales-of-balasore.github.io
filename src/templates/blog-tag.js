@@ -17,9 +17,9 @@ const BlogTag = ({
     },
 }) => {
     //Google Analytics
-    ReactGa.initialize('UA-204999128-1');
-    ReactGa.ga('set', 'page', '/tag/:slug');
-    ReactGa.ga('send', 'pageview');
+    ReactGa.initialize("UA-204999128-1");
+    ReactGa.ga("set", "page", "/tag/:slug");
+    ReactGa.ga("send", "pageview");
 
     const data = BlogData.map((blog) => {
         return {

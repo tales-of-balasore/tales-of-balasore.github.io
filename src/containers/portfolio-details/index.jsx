@@ -182,7 +182,7 @@ const PortfolioDetailsContainer = ({ data }) => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <i className="icon_pin_alt"></i>
+                                    <i className="icofont-google-map"></i>
                                 </a>
                             ) : null}
                             {instaLink ? (
@@ -191,7 +191,7 @@ const PortfolioDetailsContainer = ({ data }) => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <i className="social_instagram"></i>
+                                    <i className="icofont-instagram"></i>
                                 </a>
                             ) : null}
                             {facebookLink ? (
@@ -200,7 +200,7 @@ const PortfolioDetailsContainer = ({ data }) => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <i className="social_facebook"></i>
+                                    <i className="icofont-facebook"></i>
                                 </a>
                             ) : null}
                         </div>

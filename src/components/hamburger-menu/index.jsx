@@ -62,7 +62,7 @@ const HamburgerMenu = ({ show, onClose }) => {
                                         Gallery
                                     </NavLink>
                                 </li>
-                                <li className="item">
+                                {/* <li className="item">
                                     <NavLink
                                         to={
                                             process.env.PUBLIC_URL +
@@ -71,7 +71,7 @@ const HamburgerMenu = ({ show, onClose }) => {
                                     >
                                         Portfolio Details
                                     </NavLink>
-                                </li>
+                                </li> */}
                                 {/* <li className="dropdown-submenu">
                                     <NavLink
                                         to={

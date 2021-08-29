@@ -15,9 +15,9 @@ const BlogDetails = ({
     },
 }) => {
     //Google Analytics
-    ReactGa.initialize('UA-204999128-1');
-    ReactGa.ga('set', 'page', '/blog-details/:id');
-    ReactGa.ga('send', 'pageview');
+    ReactGa.initialize("UA-204999128-1");
+    ReactGa.ga("set", "page", "/blog-details/:id");
+    ReactGa.ga("send", "pageview");
 
     const blogId = parseInt(id, 10);
     const data = BlogData.filter((blog) => blog.id === blogId);

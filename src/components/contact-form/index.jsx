@@ -1,7 +1,40 @@
 import React, { Fragment } from "react";
 import { useForm } from "react-hook-form";
+import swal from "sweetalert";
 
 const ContactForm = () => {
+    const sendForm = (e) => {
+        e.preventDefault();
+        const data = new FormData(e.target);
+        let result = {};
+        data.forEach(function (value, key) {
+            result[key] = value;
+        });
+        const { name, email, subject, message } = result;
+        fetch("https://retoolapi.dev/48puF5/form-data", {
+            method: "post",
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                name: name,
+                email: email,
+                subject: subject,
+                message: message,
+            }),
+        }).then((response) => {
+            document.getElementById("contact-form").reset();
+            swal({
+                title: "Well received!",
+                text:
+                    "Thank you for your request, we will get back to you soon.",
+                icon: "success",
+                timer: "1000",
+                button: false,
+            });
+        });
+    };
     const { register, errors } = useForm({
         mode: "onBlur",
     });
@@ -9,8 +42,8 @@ const ContactForm = () => {
         <Fragment>
             <form
                 className="contact-form-wrapper"
-                action="https://getform.io/f/de019376-f813-48a4-9278-191634cf2dbc"
-                method="POST"
+                onSubmit={sendForm}
+                id="contact-form"
             >
                 <div className="row">
                     <div

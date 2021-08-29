@@ -11,16 +11,17 @@ const ContactContainer = () => {
                         className="col-md-10 col-lg-8 m-auto text-center"
                         data-aos="fade-up"
                     >
-                        <h2 className="title">
-                            Contact us for any further questions
-                        </h2>
+                        <h2 className="title">Get In Touch</h2>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-12 col-xl-10 m-auto">
+                    <div
+                        className="col-lg-12 col-xl-10 m-auto"
+                        // style={{ display: "flex", justifyContent: "center" }}
+                    >
                         <div className="contact-info-content">
                             {ContactData &&
-                                ContactData.map((single, key) => {
+                                ContactData.slice(0, 1).map((single, key) => {
                                     return (
                                         <ContactInfo data={single} key={key} />
                                     );
@@ -28,13 +29,39 @@ const ContactContainer = () => {
                         </div>
                     </div>
                 </div>
+                {/* <div className="row">
+                    <div className="col-lg-12 col-xl-10 m-auto">
+                        <div className="contact-info-content">
+                            {ContactData &&
+                                ContactData.slice(1).map((single, key) => {
+                                    return (
+                                        <ContactInfo data={single} key={key} />
+                                    );
+                                })}
+                        </div>
+                    </div>
+                </div> */}
                 <div className="row">
                     <div className="col-lg-12 col-xl-10 m-auto">
                         <div className="contact-form">
                             <div className="text-center" data-aos="fade-up">
-                                <h2 className="title">Get In Touch</h2>
+                                <h2 className="title">
+                                    We have tons more on our social media, see
+                                    you there.
+                                </h2>
                             </div>
-                            <ContactForm />
+                            <div className="contact-info-content">
+                                {ContactData &&
+                                    ContactData.slice(2).map((single, key) => {
+                                        return (
+                                            <ContactInfo
+                                                data={single}
+                                                key={key}
+                                            />
+                                        );
+                                    })}
+                            </div>
+                            {/* <ContactForm /> */}
                         </div>
                     </div>
                 </div>

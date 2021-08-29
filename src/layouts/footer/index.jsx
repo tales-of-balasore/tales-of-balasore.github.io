@@ -79,7 +79,7 @@ const Footer = () => {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
-                                            <i className="social_twitter"></i>
+                                            <i className="icofont-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
@@ -88,7 +88,9 @@ const Footer = () => {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
-                                            <i className="social_facebook"></i>
+                                            <i
+                                                className={"icofont-facebook"}
+                                            ></i>
                                         </a>
                                     </li>
                                     <li>
@@ -97,7 +99,7 @@ const Footer = () => {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
-                                            <i className="social_instagram"></i>
+                                            <i className="icofont-instagram"></i>
                                         </a>
                                     </li>
                                 </ul>

@@ -30,7 +30,7 @@ const Team = ({ data }) => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <i className="social_instagram"></i>
+                            <i className="icofont-instagram"></i>
                         </a>
                     ) : null}
                     {facebook ? (
@@ -39,7 +39,7 @@ const Team = ({ data }) => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <i className="social_facebook"></i>
+                            <i className="icofont-facebook"></i>
                         </a>
                     ) : null}
                     {linkedin ? (
@@ -48,7 +48,7 @@ const Team = ({ data }) => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <i className="social_linkedin_square"></i>
+                            <i className="icofont-linkedin"></i>
                         </a>
                     ) : null}
                 </div>

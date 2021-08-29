@@ -17,9 +17,9 @@ const BlogAuthor = ({
     },
 }) => {
     //Google Analytics
-    ReactGa.initialize('UA-204999128-1');
-    ReactGa.ga('set', 'page', '/author/:author');
-    ReactGa.ga('send', 'pageview');
+    ReactGa.initialize("UA-204999128-1");
+    ReactGa.ga("set", "page", "/author/:author");
+    ReactGa.ga("send", "pageview");
 
     const data = BlogData.filter((blog) => slugify(blog.author) === author);
     const authorTitle = data[0].author;

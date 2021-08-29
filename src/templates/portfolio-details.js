@@ -15,9 +15,9 @@ const PortfolioDetails = ({
     },
 }) => {
     //Google Analytics
-    ReactGa.initialize('UA-204999128-1');
-    ReactGa.ga('set', 'page', '/portfolio-details/:id');
-    ReactGa.ga('send', 'pageview');
+    ReactGa.initialize("UA-204999128-1");
+    ReactGa.ga("set", "page", "/portfolio-details/:id");
+    ReactGa.ga("send", "pageview");
 
     const projectId = parseInt(id, 10);
     const data = PortfolioData.filter((project) => project.id === projectId);

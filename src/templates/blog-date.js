@@ -17,9 +17,9 @@ const BlogDate = ({
     },
 }) => {
     //Google Analytics
-    ReactGa.initialize('UA-204999128-1');
-    ReactGa.ga('set', 'page', '/date/:date');
-    ReactGa.ga('send', 'pageview');
+    ReactGa.initialize("UA-204999128-1");
+    ReactGa.ga("set", "page", "/date/:date");
+    ReactGa.ga("send", "pageview");
 
     const data = BlogData.filter((blog) => slugify(blog.date) === date);
     const dateTitle = data[0].date;
