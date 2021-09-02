@@ -69,7 +69,7 @@ const PortfolioDetailsContainer = ({ data }) => {
                                         data-aos="fade-up"
                                         data-aos-delay="900"
                                     >
-                                        <div className="info-item style-two">
+                                        <div className="info-item">
                                             <span>Location</span>
                                             <p
                                                 dangerouslySetInnerHTML={{
@@ -178,6 +178,7 @@ const PortfolioDetailsContainer = ({ data }) => {
                             <span>Links:</span>
                             {mapLink ? (
                                 <a
+                                    className="social-map"
                                     href={data.mapLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -187,6 +188,7 @@ const PortfolioDetailsContainer = ({ data }) => {
                             ) : null}
                             {instaLink ? (
                                 <a
+                                    className="social-instagram"
                                     href={data.instaLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -196,6 +198,7 @@ const PortfolioDetailsContainer = ({ data }) => {
                             ) : null}
                             {facebookLink ? (
                                 <a
+                                    className="social-facebook"
                                     href={data.facebookLink}
                                     target="_blank"
                                     rel="noopener noreferrer"

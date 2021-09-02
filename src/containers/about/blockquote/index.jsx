@@ -8,6 +8,10 @@ const Blockquote = () => {
                     <div className="col-lg-12" data-aos="fade-up">
                         <blockquote className="blockquote-style">
                             <p
+                                // style={{
+                                //     color: "#003638",
+                                //     webkitTextStroke: "1px #003638",
+                                // }}
                                 dangerouslySetInnerHTML={{
                                     __html: AboutData[3].excerpt,
                                 }}

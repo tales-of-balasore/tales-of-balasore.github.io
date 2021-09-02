@@ -39,6 +39,7 @@ const PortfolioItem = ({ portfolio }) => {
                 <div className="portfolio-icons">
                     {mapLink ? (
                         <a
+                            className="social-map"
                             href={portfolio.mapLink}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -48,6 +49,7 @@ const PortfolioItem = ({ portfolio }) => {
                     ) : null}
                     {instaLink ? (
                         <a
+                            className="social-instagram"
                             href={portfolio.instaLink}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -57,6 +59,7 @@ const PortfolioItem = ({ portfolio }) => {
                     ) : null}
                     {facebookLink ? (
                         <a
+                            className="social-facebook"
                             href={portfolio.facebookLink}
                             target="_blank"
                             rel="noopener noreferrer"

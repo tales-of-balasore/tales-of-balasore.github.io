@@ -14,6 +14,7 @@ const Team = ({ data }) => {
                     <h3 className="name">
                         {website ? (
                             <a
+                                className="social-website"
                                 href={data.website}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -26,6 +27,7 @@ const Team = ({ data }) => {
                 <div className="member-icons">
                     {instagram ? (
                         <a
+                            className="social-instagram"
                             href={data.instagram}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -35,6 +37,7 @@ const Team = ({ data }) => {
                     ) : null}
                     {facebook ? (
                         <a
+                            className="social-facebook"
                             href={data.facebook}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -44,6 +47,7 @@ const Team = ({ data }) => {
                     ) : null}
                     {linkedin ? (
                         <a
+                            className="social-linkedin"
                             href={data.linkedin}
                             target="_blank"
                             rel="noopener noreferrer"

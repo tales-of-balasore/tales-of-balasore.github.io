@@ -15,17 +15,25 @@
     }
     .portfolio-icons {
         margin-top: 5px;
-			a {
-				color: $white;
-				font-size: 16px;
-				margin-right: 13.3px;
-				&:last-child {
-					margin-right: 0;
-				}
-				&:hover {
-					color: #f3f2c9;
-				}
-			}
+        a {
+            color: $white;
+            font-size: 16px;
+            margin-right: 13.3px;
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover {
+                &.social-map {
+                    color: #2e9b49;
+                }
+                &.social-facebook {
+                    color: #3b5999;
+                }
+                &.social-instagram {
+                    color: #e4405f;
+                }
+            }
+        }
     }
     .thumbnail {
         position: relative;
@@ -450,7 +458,15 @@
                 top: 3px;
             }
             &:hover {
-                color: $black;
+                &.social-map {
+                    color: #2e9b49;
+                }
+                &.social-facebook {
+                    color: #3b5999;
+                }
+                &.social-instagram {
+                    color: #e4405f;
+                }
             }
         }
     }

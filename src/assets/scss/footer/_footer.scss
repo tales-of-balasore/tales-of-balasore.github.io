@@ -223,8 +223,20 @@
                     font-size: 18px;
                     line-height: 1.3;
                     color: $body-color;
-                    &:hover {
-                        color: $heading-color;
+                    &.social-twitter {
+                        &:hover {
+                            color: #55acee;
+                        }
+                    }
+                    &.social-facebook {
+                        &:hover {
+                            color: #3b5999;
+                        }
+                    }
+                    &.social-instagram {
+                        &:hover {
+                            color: #e4405f;
+                        }
                     }
                 }
             }

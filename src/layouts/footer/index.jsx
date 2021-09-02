@@ -33,13 +33,13 @@ const Footer = () => {
                                                 </Link>
                                             </li>
                                             <li>
-                                                <a
+                                                {/* <a
                                                     href="https://www.google.com/maps/place/Balasore,+Odisha/data=!4m2!3m1!1s0x3a1cf4ec20929ba1:0xc0ae3bcaf5c67126?sa=X&ved=2ahUKEwi-9LzQ643yAhVnzTgGHaR3Cu0Q8gF6BAgMEAE"
                                                     target="_blank"
                                                     rel="noreferrer"
                                                 >
                                                     MAP
-                                                </a>
+                                                </a> */}
                                             </li>
                                         </ul>
                                     </nav>
@@ -75,6 +75,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <a
+                                            className="social-twitter"
                                             href="https://twitter.com/talesofbalasore/"
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -84,6 +85,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <a
+                                            className="social-facebook"
                                             href="https://www.facebook.com/talesofbalasore/"
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -95,6 +97,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <a
+                                            className="social-instagram"
                                             href="https://www.instagram.com/tales_of_balasore/"
                                             target="_blank"
                                             rel="noopener noreferrer"
