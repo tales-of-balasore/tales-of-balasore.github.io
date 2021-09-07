@@ -3,12 +3,12 @@
         "id": 1,
         "type": "image",
         "homeImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Portfolio%2F1.png?alt=media&token=ffd888ab-f7f1-4ffd-baaf-a62744f5c5bb",
-        "title": "Daniel Raclift",
-        "excerpt": "Mango Fashion Lookbook Campaign",
+        "title": "The Unexplored Beauty",
+        "excerpt": "Bahabalpur Sea Beach",
         "categories": ["featured", "newly added", "sea beach"],
         "photographer": "Chandan <br /> Choudhury",
-        "date": "September 25th <br />2020",
-        "team": "Kiran Das <br />- Editor -",
+        "date": "September 13th <br />2020",
+        "team": "Kiran Das - Writer,<br /> Chandan - Tech. Writer",
         "location": "Bahabalpur <br />Sea Beach",
         "mapLink": "https://www.google.com/maps/place/Bahabalpur+sea+Beach/@21.5065821,87.1162176,17z/data=!4m5!3m4!1s0x3a1ced82ad73d4f7:0xccf4c88ce7e61df5!8m2!3d21.5065821!4d87.1162176",
         "instaLink": "https://www.instagram.com/p/CFHgMF-py2M/",
@@ -16,11 +16,13 @@
         "prevLink": "/portfolio-details/4",
         "nextLink": "/portfolio-details/2",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
-            ""
+            "<p>So far, it can be called one of the cleanest sea beaches in Balasore, which is located between the Chandipur and Kasafal sea beaches. Crystal clear water and serene views all around the beach give the soul a rejuvenating feeling here. In addition to that, you can explore thousands of red crabs on the seashore, which is amazing, right!!!<br /><br /></p>",
+            "<b>Come and Explore!</b>",
+            "<p><br />You can approach this Sea Beach via Haldipada, Balasore.<br /><br /></p>",
+            "<b style='color:red'>Note : The Roads are narrow from Solpata Market.</b>"
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "",
             "link": "/"
         },
         "gallery": {
@@ -35,21 +37,26 @@
         "id": 2,
         "type": "image",
         "homeImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Portfolio%2F2.png?alt=media&token=b827d96c-1577-428b-9845-82b9d1ee3db6",
-        "title": "Designer Linocut",
-        "excerpt": "Mango Fashion Lookbook Campaign",
+        "title": "A Man-made Lake",
+        "excerpt": "New Blue Lake",
         "categories": ["featured", "newly added", "lake", "mountain"],
-        "photographer": "Archo Architecture <br />Bureau, SG",
-        "date": "September 25th <br />2020",
-        "team": "Nindia H. - Editor <br />Kate E. - Photographer",
-        "location": "Natural, Studio, Commercial, <br />Portrait",
+        "photographer": "Chandan <br /> Choudhury",
+        "date": "June 15th <br />2020",
+        "team": "Kiran Das - Writer,<br /> Chandan - Tech. Writer",
+        "location": "New Blue Lake, <br />Mitrapur",
+        "mapLink": "https://www.google.com/maps/place/New+Blue+lake/@21.5308731,86.7840457,635m/data=!3m1!1e3!4m5!3m4!1s0x3a1c5d13f84eadd7:0x77d8256d95f22693!8m2!3d21.5297756!4d86.7838604",
+        "instaLink": "https://www.instagram.com/p/CBdhBwjpX9J/",
+        "facebookLink": "",
         "prevLink": "/portfolio-details/1",
         "nextLink": "/portfolio-details/3",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
-            ""
+            "<p>This is indeed a man-made place enhanced by nature, which is located near Mitrapur. Mining activities in this region have created this large gorge, which has been filled with water. Its bluish hue comes from the minerals, yet it attracts the eye at first glance. </p>",
+            "",
+            "<p><br />You can approach this Lake via Mitrapur, Balasore.<br /><br /></p>",
+            "<b style='color:red'>Note : This site is currently closed due to a project.</b>"
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "",
             "link": "/"
         },
         "gallery": {
@@ -64,22 +71,27 @@
         "id": 3,
         "type": "video",
         "homeImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Portfolio%2F3.png?alt=media&token=03fe0be5-74a2-4c18-9480-a1599526ae33",
-        "videoUrl": "https://www.youtube.com/embed/KzhSW1Ztq1w",
-        "title": "Designer Collagraph",
-        "excerpt": "Mango Fashion Lookbook Campaign",
+        "videoUrl": "",
+        "title": "A Hillside View",
+        "excerpt": "Bisweswar Mahadev Temple",
         "categories": ["featured", "newly added", "mountain"],
-        "photographer": "Archo Architecture <br />Bureau, SG",
+        "photographer": "Biswajit <br /> Das",
         "date": "September 25th <br />2020",
-        "team": "Nindia H. - Editor <br />Kate E. - Photographer",
-        "location": "Natural, Studio, Commercial, <br />Portrait",
+        "team": "Kiran Das - Writer,<br /> Chandan - Tech. Writer",
+        "location": "Bisweswar Mahadev Temple, <br />Baulagadia",
+        "mapLink": "https://www.google.com/maps/place/Bisweswar+Mahadev/@21.3736711,86.7005548,18z/data=!4m5!3m4!1s0x0:0xac980025d7e7b6ef!8m2!3d21.3716131!4d86.7013945",
+        "instaLink": "",
+        "facebookLink": "",
         "prevLink": "/portfolio-details/2",
         "nextLink": "/portfolio-details/4",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
-            ""
+            "<p>This site is definitely for you if you are searching for some rejuvenation, a peaceful environment, and a Shiv temple, even if it is not yet well-known. For some spectacular scenic views from the hillblock, go to Bisweswar Mahadev Temple and explore it. You can touch and feel the clouds on rainy days but be carefull to your surroundings.<br /><br /</p>",
+            "<b>Come and Explore!</b>",
+            "<p><br />You can approach this Lake via Panchaligeswar - Baulagadia Road, Balasore.<br /><br /></p>",
+            "<b style='color:red'>Note : The Roads are narrow and inside village area from Baulagadia, drive carefully.</b>"
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "",
             "link": "/"
         },
         "gallery": {
@@ -94,21 +106,26 @@
         "id": 4,
         "type": "image",
         "homeImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Portfolio%2F4.png?alt=media&token=d9ffb516-674c-4948-b631-8dc1913b3d63",
-        "title": "Designer Engraving",
-        "excerpt": "Mango Fashion Lookbook Campaign",
+        "title": "A Beautiful Temple",
+        "excerpt": "Radha Krishna Temple",
         "categories": ["featured", "newly added", "temple"],
-        "photographer": "Archo Architecture <br />Bureau, SG",
-        "date": "September 25th <br />2020",
-        "team": "Nindia H. - Editor <br />Kate E. - Photographer",
-        "location": "Natural, Studio, Commercial, <br />Portrait",
+        "photographer": "Chandan <br /> Choudhury",
+        "date": "February 21st <br />2021",
+        "team": "Kiran Das - Writer,<br /> Chandan - Tech. Writer",
+        "location": "Radha Krishna Temple, <br />Balaramgadi",
+        "mapLink": "https://www.google.com/maps/place/Radha+Krishna+Temple/@21.4642266,87.0445505,19z/data=!4m5!3m4!1s0x0:0xc0a0b58fd3fdae3c!8m2!3d21.4652258!4d87.0451951",
+        "instaLink": "https://www.instagram.com/p/CP3TWvlNcil/",
+        "facebookLink": "",
         "prevLink": "/portfolio-details/3",
         "nextLink": "/portfolio-details/1",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
-            ""
+            "<p>It is situated hardly 2 km away from the Chandipur sea beach, where the river Budhabalang meets the sea. It is an exotic temple with a combination of architectural grace and sculptural elegance. What strikes the visitors at first glance is that the temple has water in its surroundings where thousands of colourful fishes are seen. Besides that, it has a park nearby which adds many outdoor playing equipments for kids to play with. Along with that, some interesting birds & animals are seen there, which gives it an icing on the cake feeling.<br /><br /></p>",
+            "<b>Visit and explore this divine place.</b>",
+            "<p><br />You can take Chandipur - Balaramgadi Road to reach at the temple.<br /><br /></p>",
+            "<b style='color:red'>Note : Paid tickets available for visiting, boating and others. </b>"
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "",
             "link": "/"
         },
         "gallery": {

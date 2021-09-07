@@ -4,7 +4,7 @@
             {
                 "id": 1,
                 "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Home%2F1.png?alt=media&token=5bf4ee12-0e1c-4103-ae7d-1025d5df1155",
-                "title": "Vouge Italia Deember Campaign",
+                "title": "Shot by Chandan Choudhury",
                 "subTitle": "inspire 2026",
                 "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                 "buttonText": "Explore now"
@@ -12,7 +12,7 @@
             {
                 "id": 2,
                 "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Home%2F2.png?alt=media&token=ee189854-910c-4f5d-b356-144507c211f9",
-                "title": "Vouge Italia Deember Campaign",
+                "title": "Shot by Chandan Choudhury",
                 "subTitle": "inspire 2026",
                 "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                 "buttonText": "Explore now"
@@ -20,7 +20,7 @@
             {
                 "id": 3,
                 "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/Home%2F3.png?alt=media&token=aafa5fd1-3bb7-425c-8ac0-57d9cba2f08d",
-                "title": "Vouge Italia Deember Campaign",
+                "title": "Shot by Biswajit das",
                 "subTitle": "inspire 2026",
                 "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                 "buttonText": "Explore now"
@@ -28,6 +28,6 @@
         ]
     },
     {
-        "qute": "Introducing Odisha's magnificent seaside attractiveness, <br /> “Balasore”. Traditional festivals, food, and music are all part of Balasore's culture.<br /> "
+        "qute": "Introducing Odisha's magnificent seaside attractiveness, <br /> “Balasore”. Discover all it has to offer, such as divine temples, magnificent landscapes, soothing beaches, story-telling lakes, and whatnot.<br /> "
     }
 ]
