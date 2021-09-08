@@ -26,7 +26,7 @@ const Footer = () => {
                                                 <Link
                                                     to={
                                                         process.env.PUBLIC_URL +
-                                                        "/"
+                                                        "/terms-and-conditions"
                                                     }
                                                 >
                                                     TERMS & CONDITIONS

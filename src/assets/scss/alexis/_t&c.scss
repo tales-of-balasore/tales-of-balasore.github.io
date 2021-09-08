@@ -1,0 +1,37 @@
+/*
+-----------------------------------------------------------------------
+	T&Cs CSS
+-----------------------------------------------------------------------
+*/
+
+.tc-container {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.15px;
+    margin: 0 auto 95px;
+    max-width: 870px;
+    text-align: left;
+    @media #{$md-device} {
+        margin: 0 auto 75px;
+    }
+    @media #{$sm-device} {
+        margin: 0 auto 55px;
+    }
+    h1 {
+        text-align: center;
+        margin: 50px 0 30px 0;
+    }
+    ul {
+        margin: 0 10px 0 10px;
+        li {
+            margin-bottom: 10px;
+        }
+    }
+    b {
+        color: $theme-color;
+    }
+    a {
+        color: $theme-color;
+        text-decoration: underline;
+    }
+}

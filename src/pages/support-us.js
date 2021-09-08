@@ -18,29 +18,51 @@ const SupportUs = () => {
                 <SEO title="Tales of Balasore || Support Us" />
                 <div className="wrapper home-default-wrapper">
                     <Header classOption="hb-border" />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <div style={{ display: "flex", justifyContent: "center" }}>
-                        <img
-                            src="https://firebasestorage.googleapis.com/v0/b/tales-of-balasore.appspot.com/o/UPI.png?alt=media&token=c92c81eb-4cac-4ae4-ab84-122f9b90c70a"
-                            alt="UPI-Code"
-                        />
-                        <br />
-                        <br />
+                    <div className="main-content">
+                        <div className="support-container">
+                            <h1>
+                                {" "}
+                                <b>Support Us</b>{" "}
+                            </h1>
+                            <p>
+                                Hi <b>Balasorians</b> and our{" "}
+                                <b>lovely viewers</b>, we are very small team,
+                                some of our team members are working full time
+                                and some are studying. So we don&#39;t have too
+                                much time to manage this, but we are trying our
+                                best.
+                            </p>
+                            <p>
+                                We are extremely passionate about our{" "}
+                                <b>Balasore (ବାଲେଶ୍ୱର)</b>. So we are starting
+                                this as our project. We need your help & support
+                                to grow more to serve more.
+                            </p>
+                            <p>
+                                Our main aim is to share the hidden/unexplored
+                                places of <b>Balasore (ବାଲେଶ୍ୱର)</b> with our
+                                viewers and this is not possible without your
+                                help. Also this will help to attracts more
+                                visitors to our places, which indirectly support
+                                our people also.
+                            </p>
+                            <p>Please follow Covid19 Protocols everywhere.</p>
+                            <p>
+                                Please don&#39;t be mean, and keep your
+                                surroundings clean.
+                            </p>
+                            <p>
+                                Kindly follow and share our social media pages,
+                                website with others.
+                            </p>
+                            <br />
+                            <span role="img" aria-label="foldedhand">
+                                🙏🏻
+                            </span>
+                        </div>
                     </div>
-                    <div style={{ display: "flex", justifyContent: "center" }}>
-                        <p> Support us for good work</p>
-                    </div>
-                    {/* <div style={{ display: "flex", justifyContent: "center" }}>
-                        <img
-                            src=""
-                            alt="UPI-Support"
-                        />
-                    </div> */}
-                    {/* <Footer />
-                    <ScrollToTop /> */}
+                    <Footer />
+                    <ScrollToTop />
                 </div>
             </Layout>
         </React.Fragment>

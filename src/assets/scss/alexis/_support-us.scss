@@ -1,0 +1,37 @@
+/*
+-----------------------------------------------------------------------
+	Support-Us CSS
+-----------------------------------------------------------------------
+*/
+
+.support-container {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.15px;
+    margin: 0 auto 95px;
+    max-width: 870px;
+    text-align: center;
+    @media #{$md-device} {
+        margin: 0 auto 75px;
+    }
+    @media #{$sm-device} {
+        margin: 0 auto 55px;
+    }
+    h1 {
+        margin: 50px 0 30px 0;
+    }
+    p {
+        margin: 0 10px 20px 10px;
+        b {
+            color: $theme-color;
+        }
+    }
+    span {
+        margin: 30px 0 30px 0;
+        font-size: 80px;
+    }
+    a {
+        color: $theme-color;
+        text-decoration: underline;
+    }
+}
