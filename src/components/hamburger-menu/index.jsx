@@ -66,7 +66,7 @@ const HamburgerMenu = ({ show, onClose }) => {
                                     <NavLink
                                         to={
                                             process.env.PUBLIC_URL +
-                                            "/portfolio-details/1"
+                                            "/photo-details/1"
                                         }
                                     >
                                         Portfolio Details
@@ -101,7 +101,7 @@ const HamburgerMenu = ({ show, onClose }) => {
                                             <NavLink
                                                 to={
                                                     process.env.PUBLIC_URL +
-                                                    "/portfolio-details/1"
+                                                    "/photo-details/1"
                                                 }
                                             >
                                                 Portfolio Details

@@ -74,7 +74,7 @@ const App = () => {
                     />
                     <Route
                         path={`${
-                            process.env.PUBLIC_URL + "/portfolio-details/:id"
+                            process.env.PUBLIC_URL + "/photo-details/:id"
                         }`}
                         component={PortfolioDetails}
                     />

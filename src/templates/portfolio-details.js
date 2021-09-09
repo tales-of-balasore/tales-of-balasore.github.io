@@ -16,7 +16,7 @@ const PortfolioDetails = ({
 }) => {
     //Google Analytics
     ReactGa.initialize("UA-204999128-1");
-    ReactGa.ga("set", "page", "/portfolio-details/:id");
+    ReactGa.ga("set", "page", "/photo-details");
     ReactGa.ga("send", "pageview");
 
     const projectId = parseInt(id, 10);
@@ -24,7 +24,7 @@ const PortfolioDetails = ({
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Tales of Balasore || Portfolio Details" />
+                <SEO title="Tales of Balasore || Photo Details" />
                 <div className="wrapper home-default-wrapper">
                     <Header classOption="hb-border" />
                     <div className="main-content">

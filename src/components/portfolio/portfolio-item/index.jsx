@@ -29,7 +29,7 @@ const PortfolioItem = ({ portfolio }) => {
                     <Link
                         to={
                             process.env.PUBLIC_URL +
-                            `/portfolio-details/${portfolio.id}`
+                            `/photo-details/${portfolio.id}`
                         }
                     >
                         {portfolio.title}
