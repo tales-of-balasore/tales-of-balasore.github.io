@@ -26,7 +26,7 @@ const SupportUs = () => {
                             </h1>
                             <p>
                                 Hi <b>Balasorians</b> and our{" "}
-                                <b>lovely viewers</b>, we are very small team,
+                                <b>lovely viewers</b>, we are a very small team,
                                 some of our team members are working full time
                                 and some are studying. So we don&#39;t have too
                                 much time to manage this, but we are trying our
@@ -42,9 +42,9 @@ const SupportUs = () => {
                                 Our main aim is to share the hidden/unexplored
                                 places of <b>Balasore (ବାଲେଶ୍ୱର)</b> with our
                                 viewers and this is not possible without your
-                                help. Also this will help to attracts more
-                                visitors to our places, which indirectly support
-                                our people also.
+                                help. Also, this will help to attract more
+                                visitors to our places, which will indirectly
+                                support the local people of that place.
                             </p>
                             <p>Please follow Covid19 Protocols everywhere.</p>
                             <p>
