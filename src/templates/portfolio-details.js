@@ -14,12 +14,12 @@ const PortfolioDetails = ({
         params: { id },
     },
 }) => {
+    const projectId = parseInt(id, 10);
     //Google Analytics
     ReactGa.initialize("UA-204999128-1");
-    ReactGa.ga("set", "page", "/photo-details");
+    ReactGa.ga("set", "page", `/photo-details/${projectId}`);
     ReactGa.ga("send", "pageview");
 
-    const projectId = parseInt(id, 10);
     const data = PortfolioData.filter((project) => project.id === projectId);
     return (
         <React.Fragment>
