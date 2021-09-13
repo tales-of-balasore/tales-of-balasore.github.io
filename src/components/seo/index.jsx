@@ -7,8 +7,16 @@ const SEO = ({ title }) => {
         <Helmet>
             <meta charSet="utf-8" />
             <title>{title}</title>
-            <meta name="robots" content="follow" />
-            <meta name="description" content="Tales of Balasore" />
+            <meta name="robots" content="index, follow" />
+            <meta
+                name="description"
+                content="Tales of Balasore - The official website of Tales of Balasore. Introducing Odisha's magnificent seaside attractiveness,
+                “Balasore”. Discover all it has to offer, such as divine temples, magnificent landscapes, soothing beaches, story-telling lakes, and whatnot."
+            />
+            <meta
+                name="keywords"
+                content="Tales of Balasore, Balasore, 756001, Missile City, Chandipur, Khirachora Gopinath, Talsari, Raibania Fort, DRDO, PXE, ITR, Remuna, Panchalingeswar"
+            />
             <meta
                 name="viewport"
                 content="width=device-width, initial-scale=1, shrink-to-fit=no"
