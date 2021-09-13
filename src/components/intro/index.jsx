@@ -16,7 +16,7 @@ const Intro = ({ data }) => {
                     <div className="col align-self-center">
                         <div className="intro-content">
                             {/* <span className="sub-title">{data.subTitle}</span> */}
-                            <h2 className="title">{data.title}</h2>
+                            <h1 className="title">{data.title}</h1>
                             {/* <div className="desc">
                                 <p>{data.desc}</p>
                             </div> */}
