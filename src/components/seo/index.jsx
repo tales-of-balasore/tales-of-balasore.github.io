@@ -7,7 +7,7 @@ const SEO = ({ title }) => {
         <Helmet>
             <meta charSet="utf-8" />
             <title>{title}</title>
-            <meta name="robots" content="noindex, follow" />
+            <meta name="robots" content="follow" />
             <meta name="description" content="Tales of Balasore" />
             <meta
                 name="viewport"
