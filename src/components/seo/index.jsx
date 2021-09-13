@@ -15,7 +15,7 @@ const SEO = ({ title }) => {
             />
             <meta
                 name="keywords"
-                content="Tales of Balasore, Balasore, 756001, Missile City, Chandipur, Khirachora Gopinath, Talsari, Raibania Fort, DRDO, PXE, ITR, Remuna, Panchalingeswar"
+                content="Tales of Balasore, Balasore, 756001, Missile City, Chandipur, Khirachora Gopinath, Talsari, Raibania Fort, DRDO, PXE, ITR, Remuna, Panchalingeswar, Chandan Choudhury, Beach, Lake, Shot"
             />
             <meta
                 name="viewport"
