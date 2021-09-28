@@ -7,7 +7,7 @@ const SEO = ({ title }) => {
         <Helmet>
             <meta charSet="utf-8" />
             <title>{title}</title>
-            <meta name="robots" content="index, follow" />
+            {/* <meta name="robots" content="index, follow" /> */}
             <meta
                 name="description"
                 content="Tales of Balasore - The official website of Tales of Balasore. Introducing Odisha's magnificent seaside attractiveness,
